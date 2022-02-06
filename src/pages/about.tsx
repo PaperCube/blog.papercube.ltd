@@ -21,7 +21,7 @@ interface FriendData {
 }
 
 function githubPic(name: string) {
-  return `https://github.yuuza.net/${name}.png`;
+  return `https://github.com/${name}.png`;
 }
 
 var friendsData: FriendData[] = [
