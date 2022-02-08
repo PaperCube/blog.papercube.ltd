@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
+    title: 'PaperCube\'s Non-Cubic Blog',
+    tagline: 'Under construction. Susceptible to destruction. Dependent on demonstration\n',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -68,25 +68,35 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
         navbar: {
-            title: 'My Site',
+            title: 'PaperCublog',
             logo: {
-                alt: 'My Site Logo',
+                alt: 'My Site Logo To Be Replaced',
                 src: 'img/logo.svg',
             },
-            items: [{
+            items: [
+                // {
+                //     label: 'Document test',   
+                //     type: 'doc', 
+                //     docId: 'intro2', 
+                //     position: 'left', 
+                // },
+                { to: '/blog', label: 'Blog', position: 'left' },
+
+                {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: ' ',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
+
+                // { to: 'https://baidu.com', label: 'Blog2', position: 'left'},
                 {
                     href: "/about",
                     label: "About & Links",
                     position: "right",
                   },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/PaperCube/blog.papercube.ltd',
                     label: 'GitHub',
                     position: 'right',
                 },
